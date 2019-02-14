@@ -1,0 +1,186 @@
+ /*set header appearance*/
+header {
+	text-align: center;
+	font-size: 40px;
+	font-family: impact;
+
+	color: red;
+	
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	clear: both;
+	max-height: 10%;
+}
+
+/*set body style and add background image*/
+body {
+	background-color: black;
+	background-image:url('../img/background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+
+
+}
+
+/* I tried to make a reveal more tab but it didn't really work the way 
+I wanted it to.
+
+UNFINISHED*/
+
+/*#content {
+  overflow: hidden;
+  height: 3.6em;
+  line-height: 1.2em;
+  width: 100%;
+}
+
+#more:checked + div {
+  height: auto;
+}*/
+
+
+
+}
+/*old navigation bar*/
+/*nav {
+text-align: center;
+clear: both;
+font-size: 20px;
+	
+
+background-color: rgba(255,255,255,0.5);
+
+
+word-spacing: 200px;
+max-height: 10%;
+color:white;
+*/
+
+
+}
+/*Navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
+
+/*li {
+    float: left;
+
+
+}*/
+/*Navigation bar style*/
+/*a {
+
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 110px;
+    text-decoration: none;
+
+    
+    
+
+}
+
+a:hover {
+    background-color: #111;
+}*/
+
+
+
+/*Set font courier new*/
+main{
+	max-width: 100%;
+	display: inline;
+	font-family: courier new;
+	
+	/*set thin outline around the text so it add visibility*/
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000
+
+}
+/*Justify text*/
+section{
+	text-align: justify;
+	/*max-height: 60%;*/
+	
+	/*Organization of the 4 titles into side by side columns*/
+
+}
+/*#forza {
+	width:20%;
+	margin:1%;
+	padding:1%;
+	color: white;
+	float: left;
+
+}
+
+#wolfenstein {
+	width:20%;
+	margin:1%;
+	padding:1%;
+	color: white;
+	float: left;
+}
+
+#witcher {
+	width:20%;
+	margin:1%;
+	padding:1%;
+	color: white;
+	float: left;
+}
+
+#DOOM {
+	width:20%;
+	margin:1%;
+	padding:1%;
+	color: white;
+	float: left;
+}*/
+
+/*align titles to center of columns*/
+h1{
+text-align: center;
+
+
+}
+
+
+/*set image size layout in the columns*/
+#image{
+	width:50%;
+	align-content: center;
+	float:left;
+	margin:5px;
+	border size: 2px;
+	border-color: grey;
+	border-style: solid;
+	
+}
+
+/*set footer style*/
+footer{
+	color: yellow;
+	max-height: 10%;
+	text-align: left;
+	font-size: 10px;
+	clear: both;
+	margin-top: 20px;
+}

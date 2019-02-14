@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up For Our Newsletter</title>
+		<meta charset="utf-8"/>
+		<!--link to external css-->
+		<link rel="stylesheet" href="CSS/bootstrap.min.css">
+		<link rel="stylesheet" href="CSS/css_form.css">
+		
+		<!--link to external javascript-->
+		<script type="text/javascript" src="javascript/formScript1.js">
+		</script>
+	</head>
+<body>
+		<header>
+			<h1>Register For Our Newsletter</h1>
+		</header>
+		<main>
+<!--create form class-->
+
+<div class="form">
+
+	<!-- javascript validation function is called to validate the information input on the form
+		on form submission you are sent back to the home page-->
+			<div class="container col-lg-12 col-sm-6">
+			<form  method="post" action="video_game_reviews.html" onsubmit="return validateForm()">
+				<!--name-->
+				<label for="txtName"> Name: </label>
+					<input type="text" id="txtName" placeholder="Name" title="Enter Your Name" 
+					><br>
+                   <!--email-->
+					<label for="txtEmail"> Email: </label>
+					<input type="email" id="txtEmail" placeholder="Email"
+					><br>
+					<!--phone-->
+					<label for="txtTel"> Phone Number: </label>
+					<input type="tel" id="txtTel" placeholder="###-###-####">
+					<br>
+					<!--country-->
+					<label for="country">Country: </label>
+					<select id="country">
+						<option value="Canada">Canada</option>
+						<option value="United States">United States</option>
+						<option value="Other">Other</option>
+					</select>
+
+					<!--Checkboxes for interests-->	
+					<legend id = interests>Interests</legend>
+					<label for = "chkInterests">Xbox:</label>
+					<input type="checkbox" id="chkXbox" name="chkInterests" value="Xbox"><br>
+
+					<label for = "chkInterests">Playstation:</label>
+					<input type="checkbox" id="chkPlaystation" name="chkInterests" value="Playstation"><br>
+
+					<label for = "chkInterests">Nintendo:</label>
+					<input type="checkbox" id="chkNintendo" name="chkInterests" value="Nintendo"><br>
+
+					<label for = "chkInterests">PC:</label>
+					<input type="checkbox" id="chkPC" name="chkInterests" value="PC"><br>
+				
+				
+
+					<!--Radio buttons for gender selection-->
+					<legend id = gender>Gender</legend>
+					<label for="radGender">Male</label>
+					<input type="radio" id="radMale" name="radGender" value="Male"><br>
+
+					<label for="radGender">Female</label>
+					<input type="radio" id="radFemale" name="radGender" value="Female">
+					<br>
+
+					<label for="radGender">Prefer Not To Say</label>
+					<input type="radio" id="radOther" name="radGender" value="PreferNotToSay">
+					<br>
+				
+
+				
+
+					<!--comments-->
+					<label for="txtComments"> Comments: </label><br>
+					<!--set textbox area-->
+					<textarea id="txtComments" cols="50" rows="4"></textarea>
+					<br>
+
+					<!--submit and reset buttons for the form-->
+				
+				<input  class="container col-lg-4 col-sm-12 mb-3 mt-1" type="submit" value="Submit"/>
+
+				<input  class="container col-lg-4 col-sm- 12" type="reset" value="Reset">
+				
+
+			</form>
+			</div>
+			</div>	
+
+		</main>
+		<footer>
+			&copy; 2018 Tom Pawelec
+		</footer>
+</body>
+</html>
